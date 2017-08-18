@@ -1,0 +1,131 @@
+  
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+#mainNav {
+  background-color: #222222; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  #mainNav .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #fec503; }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #fed136; }
+
+.nav-item
+{
+    margin-right: 15px;
+}
+	  
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+input[type=text] {
+    width: 13px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border:0;
+    outline: none;
+
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float:right;
+}
+
+input[type=text]:focus {
+    width: 300px;
+    border-top: 0;
+    border-right:0;
+    border-left:0;
+    border-bottom: 1px solid #ddd;
+}
+footer {
+	background-color: #222222;
+  padding: 15px 0;
+  text-align: center; }
+  footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+
+ul.social-buttons {
+  margin-bottom: 0; }
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #222222; }
+    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+      background-color: #fed136; }
+
+
+.card-title
+{
+    margin-bottom: 5px;
+}
+
+.years
+{
+    color: #fed136;
+    font-weight: light;
+}
+
+.names, .names:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+

@@ -1,0 +1,42 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+ul
+{
+  list-style-type:none;
+}
+
+li p
+{
+	margin-bottom: 0;
+}
+
+.navbar-brand , .my-4
+{
+	font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.my-4
+{
+	margin-top: 50px!important;
+}
+
+h5
+{
+	margin-bottom: 30px;
+}
